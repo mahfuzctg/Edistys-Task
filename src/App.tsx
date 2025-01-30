@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import OurPhilosophy from "./components/sections/Philosophy.Section";
 import Footer from "./components/shared/Footer";
 import Navbar from "./components/shared/Navbar";
 
@@ -9,6 +10,7 @@ const App = () => {
         <Navbar></Navbar>
       </div>
       <Outlet></Outlet>
+      <OurPhilosophy></OurPhilosophy>
       <Footer />
     </div>
   );
