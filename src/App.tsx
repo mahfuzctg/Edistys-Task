@@ -5,7 +5,9 @@ import Navbar from "./components/shared/Navbar";
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <div className="w-9/12 mx-auto">
+        <Navbar></Navbar>
+      </div>
       <Outlet></Outlet>
       <Footer />
     </div>

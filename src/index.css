@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind Custom Class for Clip Path */
+/* Clip-path for the gradient background */
 @layer utilities {
   .clip-path-custom {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   }
+}
+
+/* Clip-path for the background image */
+.clip-path-image {
+  clip-path: polygon(70% 0, 100% 0, 100% 100%, 0% 100%);
 }
