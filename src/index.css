@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Tailwind Custom Class for Clip Path */
+@layer utilities {
+  .clip-path-custom {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+}
