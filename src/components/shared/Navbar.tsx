@@ -27,13 +27,8 @@ const Navbar = () => {
             <Link to="/services" className="hover:text-green-600">
               Services
             </Link>
-            <Link to="/contact" className="hover:text-green-600">
-              Contact
-            </Link>
           </div>
-
-          {/* Contact Us (Right) */}
-          <div className="hidden md:flex">
+          <div className="hidden md:flex flex-grow font-bold border border-1 ">
             <Link to="/contact" className="hover:text-green-600">
               Contact Us
             </Link>
