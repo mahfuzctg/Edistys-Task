@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="relative w-full h-screen bg-gradient-to-r from-[#005BC4] via-[#13A8ED] to-[#005BC4] clip-path-custom">
+    <div className="relative w-full h-screen animated-bg clip-path-custom">
       {/* Animated Background Image with Clip-Path */}
       <motion.div
         initial={{ opacity: 0, x: "100%" }}

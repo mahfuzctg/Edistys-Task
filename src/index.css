@@ -13,3 +13,80 @@
 .clip-path-image {
   clip-path: polygon(70% 0, 100% 0, 100% 100%, 0% 100%);
 }
+
+/* Smooth Background Animation */
+@keyframes bgAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 25% 50%;
+  }
+  50% {
+    background-position: 50% 50%;
+  }
+  75% {
+    background-position: 75% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Add animated background with 6 images and slashes */
+.animated-bg {
+  position: relative;
+  background: url("./assets/Images/ctaMobileWaveLines(1).svg") no-repeat center
+      center/cover,
+    url("./assets/Images/WaveLinesDesktop1.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesDesktop2.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesDesktop3.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesDesktop4.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesMobile1.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesMobile2.svg") no-repeat center center/cover,
+    linear-gradient(45deg, #0251be, #0251be, #0251be); /* Gradient as the last background layer */
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%,
+    100% 100%, 200% 200%;
+  transition: background-position 0.5s ease-in-out; /* Smooth transition for background */
+}
+
+/* Smoothly move the background images on hover */
+.animated-bg:hover {
+  background-position: 10% 50%, 20% 50%, 30% 50%, 40% 50%, 50% 50%, 60% 50%,
+    100% 100%; /* Change background position on hover */
+}
+
+/* Slash lines
+.animated-bg::before,
+.animated-bg::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 50px;
+  height: 300px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transform: rotate(45deg);
+  animation: slashAnimation 8s infinite ease-in-out;
+} */
+
+/* Animation for the lines
+@keyframes slashAnimation {
+  0% {
+    transform: translate(0, 0) rotate(45deg);
+  }
+  50% {
+    transform: translate(200px, 200px) rotate(45deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(45deg);
+  }
+} */
+
+/* Optional second set of slashes
+.animated-bg::after {
+  top: 80%;
+  left: 80%;
+  animation: slashAnimation 30s infinite ease-in-out;
+} */
