@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="relative w-full h-screen animated-bg clip-path-custom">
+    <div className="relative w-full h-screen animated-bg clip-path-custom-home font-[Montserrat]">
       {/* Animated Background Image with Clip-Path */}
       <motion.div
         initial={{ opacity: 0, x: "100%" }}
@@ -15,7 +15,7 @@ const Home = () => {
       ></motion.div>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex flex-col justify-center items-start h-full pl-10 text-white space-y-6">
+      <div className="relative w-9/12 mx-auto z-10 flex flex-col justify-center items-start h-full pl-10 text-white space-y-6">
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -28,7 +28,7 @@ const Home = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
-          className="text-lg max-w-md"
+          className="text-lg max-w-md font-[Montserrat]"
         >
           Reimagine financial services with Edistys' open platform, distributed
           banking solutions that power transformation.

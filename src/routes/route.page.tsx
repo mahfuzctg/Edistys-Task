@@ -1,4 +1,4 @@
-import Aboute from "../pages/Aboute/Aboute";
+import About from "../pages/About/About";
 import Home from "../pages/Home/Home";
 
 export const pageRoutes = [
@@ -7,8 +7,8 @@ export const pageRoutes = [
     element: <Home />,
     children: [
       {
-        path: "aboute",
-        element: <Aboute />,
+        path: "about",
+        element: <About />,
       },
     ],
   },

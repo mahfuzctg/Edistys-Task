@@ -2,10 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Clip-path for the gradient background */
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Noto+Sans+Bengali:wght@500&family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Apply Global Font */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Optional: Apply Poppins for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Clip-path for the gradient background for home */
 @layer utilities {
-  .clip-path-custom {
+  .clip-path-custom-home {
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0 85%);
+  }
+}
+/* Clip-path for the gradient background for about*/
+@layer utilities {
+  .clip-path-custom-about {
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+    background: linear-gradient(to bottom, #e58964, #014ab8);
   }
 }
 

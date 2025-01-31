@@ -22,7 +22,7 @@ const SponsorSection: React.FC = () => {
         </h2>
 
         {/* HR Line */}
-        <hr className="w-32 mx-auto my-4 border-t-2 border-gray-300" />
+        <hr className="w-full mx-auto my-4 border-t-2 border-gray-300" />
       </div>
 
       {/* Auto-scrolling Sponsor Logos */}
