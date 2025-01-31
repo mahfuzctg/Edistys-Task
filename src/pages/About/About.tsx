@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import TechFinCards from "../../components/reUsable/cards/TechFinCards";
+import SponsorSection from "../../components/reUsable/SponsorScrolling/SponsorSection";
+import OurPhilosophy from "../../components/sections/PhilosophySection";
 
 const About = () => {
   return (
@@ -26,6 +29,12 @@ const About = () => {
           </motion.p>
         </div>
       </div>
+      {/*  */}
+
+      <OurPhilosophy></OurPhilosophy>
+      <TechFinCards></TechFinCards>
+      {/* Scrolling  */}
+      <SponsorSection></SponsorSection>
     </>
   );
 };

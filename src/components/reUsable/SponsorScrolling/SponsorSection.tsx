@@ -12,17 +12,19 @@ const sponsors = [
 
 const SponsorSection: React.FC = () => {
   return (
-    <section className="py-10 bg-[#FFFFFF] w-9/12  mx-auto">
-      <div className="text-center">
+    <section className="py-20 bg-[#FFFFFF] w-9/12  mx-auto">
+      <div className="py-8">
         {/* Title */}
-        <h2 className="text-xl md:text-4xl font-semibold text-[#153861] font-roboto">
+        <h2 className="text-xl md:text-5xl  text-[#153861] ">
           Empowering more than{" "}
-          <span className="text-blue-600">40 financial institutions</span> to
-          transform in a digital-first world.
+          <span className="text-blue-500 text-xl md:text-5xl">
+            40 financial institutions
+          </span>{" "}
+          to transform in a digital-first world.
         </h2>
 
         {/* HR Line */}
-        <hr className="w-full mx-auto my-4 border-t-2 border-gray-300" />
+        <hr className="w-full mx-auto my-4 border-t-3 mt-8 border-gray-300" />
       </div>
 
       {/* Auto-scrolling Sponsor Logos */}

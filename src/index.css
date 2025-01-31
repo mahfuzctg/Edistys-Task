@@ -3,21 +3,37 @@
 @tailwind utilities;
 
 /* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Noto+Sans+Bengali:wght@500&family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+Bengali:wght@500&family=Poppins:wght@500&display=swap");
 
-/* Apply Global Font */
-body {
+/* Heading */
+.heading {
   font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-/* Optional: Apply Poppins for headings */
+/* Subheading */
+.subheading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Body Text */
+.body-text {
+  font-family: "Noto Sans Bengali", sans-serif;
+  font-weight: 500;
+  color: #777;
+}
+
+/* Apply Montserrat for headings, overriding previous Poppins font */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Clip-path for the gradient background for home */
