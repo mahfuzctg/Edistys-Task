@@ -35,20 +35,23 @@ const Countdown = () => {
 
   return (
     <div className="countdown-container text-center py-20">
-      <h2 className="text-4xl font-semibold mb-6 text-gray-800">
+      <h2 className="text-4xl font-semibold mb-6 text-blue-500">
         TRUSTED BY THE BEST
       </h2>
-      <div className="countdown-stats flex justify-center items-center space-x-12">
+      <div className="countdown-stats  flex justify-center items-center space-x-12">
         <div className="stat-item text-4xl font-bold">
-          <p className="text-5xl">{years}+ </p>
+          <p className="text-8xl text-blue-500">
+            {" >"}
+            {years}{" "}
+          </p>
           <p className="text-lg">Years of Experience</p>
         </div>
         <div className="stat-item text-4xl font-bold">
-          <p className="text-5xl">{institutions}+ </p>
+          <p className="text-8xl text-blue-500">{institutions}+ </p>
           <p className="text-lg">Financial Institutions</p>
         </div>
         <div className="stat-item text-4xl font-bold">
-          <p className="text-5xl">{customers}m </p>
+          <p className="text-8xl text-blue-500">{customers}m </p>
           <p className="text-lg">Customers Each</p>
         </div>
       </div>

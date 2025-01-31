@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import TechFinCards from "../../components/reUsable/cards/TechFinCards";
+import BrandLogo from "../../components/sections/BrandLogo";
 import Countdown from "../../components/sections/Countdown";
 import OurPhilosophy from "../../components/sections/PhilosophySection";
 
@@ -50,6 +51,7 @@ const Home = () => {
       <OurPhilosophy></OurPhilosophy>
       <TechFinCards></TechFinCards>
       <Countdown></Countdown>
+      <BrandLogo></BrandLogo>
     </>
   );
 };
