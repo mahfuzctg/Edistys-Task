@@ -2,10 +2,10 @@ const OurPhilosophy = () => {
   return (
     <section className="w-full  py-16">
       <div className="container mx-auto text-center px-6">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">
-          OUR PHILOSOPHY
-        </h2>
-        <p className="text-xl text-gray-600 mb-8">Human-centred innovation</p>
+        <p className=" font-bold text-blue-600 mb-4">OUR PHILOSOPHY</p>
+        <h1 className="text-5xl font-bold text-gray-600 mb-8">
+          Human-centred innovation
+        </h1>
         <div
           className="  h-72  bg-cover bg-center rounded-lg"
           style={{
