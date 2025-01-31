@@ -49,6 +49,13 @@ h6 {
     background: linear-gradient(to bottom, #e58964, #014ab8);
   }
 }
+/* Clip-path for the gradient background for Transform section*/
+@layer utilities {
+  .clip-path-custom-transform {
+    clip-path: polygon(0 100%, 100% 100%, 100% 45%, 0 0);
+    background: linear-gradient(to bottom, #014ab8, #014ab8);
+  }
+}
 
 /* Clip-path for the background image */
 .clip-path-image {

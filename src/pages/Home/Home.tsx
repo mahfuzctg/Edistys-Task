@@ -3,6 +3,7 @@ import TechFinCards from "../../components/reUsable/cards/TechFinCards";
 import BrandLogo from "../../components/sections/BrandLogo";
 import Countdown from "../../components/sections/Countdown";
 import OurPhilosophy from "../../components/sections/PhilosophySection";
+import TransformSection from "../../components/sections/TransformSection";
 
 const Home = () => {
   return (
@@ -52,6 +53,7 @@ const Home = () => {
       <TechFinCards></TechFinCards>
       <Countdown></Countdown>
       <BrandLogo></BrandLogo>
+      <TransformSection></TransformSection>
     </>
   );
 };
