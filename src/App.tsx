@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
-import OurPhilosophy from "./components/sections/Philosophy.Section";
+import TechFinCards from "./components/reUsable/cards/TechFinCards";
+import OurPhilosophy from "./components/sections/PhilosophySection";
 import Footer from "./components/shared/Footer";
 import Navbar from "./components/shared/Navbar";
 
@@ -11,6 +12,7 @@ const App = () => {
       </div>
       <Outlet></Outlet>
       <OurPhilosophy></OurPhilosophy>
+      <TechFinCards></TechFinCards>
       <Footer />
     </div>
   );
