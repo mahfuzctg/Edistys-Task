@@ -34,7 +34,10 @@ const TechFinCards: React.FC = () => {
     <section className="w-9/12 mx-auto mb-10 px-6">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {features.map((feature, index) => (
-          <div key={index} className="flex flex-col items-start p-4 bg-white  ">
+          <div
+            key={index}
+            className="flex flex-col items-start p-4 bg-[#F8FCFF]  "
+          >
             {/* Icon with background */}
             <div className={`p-3 rounded-full ${feature.bgColor}`}>
               {feature.icon}

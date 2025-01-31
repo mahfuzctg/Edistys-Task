@@ -47,16 +47,10 @@
     linear-gradient(45deg, #0251be, #0251be, #0251be); /* Gradient as the last background layer */
   background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%,
     100% 100%, 200% 200%;
-  transition: background-position 0.5s ease-in-out; /* Smooth transition for background */
+  animation: bgAnimation 8s infinite ease-in-out;
 }
 
-/* Smoothly move the background images on hover */
-.animated-bg:hover {
-  background-position: 10% 50%, 20% 50%, 30% 50%, 40% 50%, 50% 50%, 60% 50%,
-    100% 100%; /* Change background position on hover */
-}
-
-/* Slash lines
+/* Slash lines */
 .animated-bg::before,
 .animated-bg::after {
   content: "";
@@ -69,9 +63,9 @@
   border: 2px solid rgba(255, 255, 255, 0.2);
   transform: rotate(45deg);
   animation: slashAnimation 8s infinite ease-in-out;
-} */
+}
 
-/* Animation for the lines
+/* Animation for the lines */
 @keyframes slashAnimation {
   0% {
     transform: translate(0, 0) rotate(45deg);
@@ -82,11 +76,10 @@
   100% {
     transform: translate(0, 0) rotate(45deg);
   }
-} */
+}
 
-/* Optional second set of slashes
-.animated-bg::after {
+Optional second set of slashes .animated-bg::after {
   top: 80%;
   left: 80%;
   animation: slashAnimation 30s infinite ease-in-out;
-} */
+}
