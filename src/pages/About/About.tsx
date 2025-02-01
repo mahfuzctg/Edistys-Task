@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import TechFinCards from "../../components/reUsable/cards/TechFinCards";
 import SponsorSection from "../../components/reUsable/SponsorScrolling/SponsorSection";
-import OurPhilosophy from "../../components/sections/PhilosophySection";
+import OurMission from "../../components/sections/about/OurMission";
 
 const About = () => {
   return (
@@ -31,10 +31,11 @@ const About = () => {
       </div>
       {/*  */}
 
-      <OurPhilosophy></OurPhilosophy>
       <TechFinCards></TechFinCards>
       {/* Scrolling  */}
       <SponsorSection></SponsorSection>
+      {/* Our Mission */}
+      <OurMission></OurMission>
     </>
   );
 };

@@ -180,3 +180,36 @@ Optional second set of slashes .animated-bg::after {
 .animate-slow-bounce {
   animation: slowBounce 15s ease-in-out infinite;
 }
+
+/* Our Mission animation */
+
+/* Gradient Background Animation */
+@keyframes gradient-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Animating the gradient */
+.animate-gradient-bg {
+  animation: gradient-bg 6s ease infinite;
+}
+
+/* Clip Path Shapes */
+.clip-shape-1 {
+  clip-path: polygon(0 70%, 0% 100%, 84% 28%);
+}
+
+.clip-shape-2 {
+  clip-path: polygon(70% 0, 99% 0, 75% 100%, 43% 100%);
+}
+
+.clip-shape-3 {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}

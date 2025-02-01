@@ -1,4 +1,4 @@
-import Heading from "../reUsable/heading/heading";
+import Heading from "../../reUsable/heading/heading";
 
 const OurPhilosophy = () => {
   return (

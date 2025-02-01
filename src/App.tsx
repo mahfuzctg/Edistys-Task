@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 
-import TransformSection from "./components/sections/TransformSection";
+import TransformSection from "./components/sections/home/TransformSection";
 import Footer from "./components/shared/Footer";
 import Navbar from "./components/shared/Navbar";
 
