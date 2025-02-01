@@ -30,10 +30,27 @@ const FinanceSection = () => {
         />
 
         {/* Front Images */}
-        <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 flex space-x-4">
-          <div className="w-20 h-20 bg-blue-500 rounded-full shadow-xl animate-bounce"></div>
-          <div className="w-20 h-20 bg-green-500 rounded-full shadow-xl animate-bounce"></div>
-          <div className="w-20 h-20 bg-red-500 rounded-full shadow-xl animate-bounce"></div>
+        <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 flex">
+          {/* First Image: 50% outside to the left */}
+          <img
+            src="https://i.postimg.cc/dVzkSpBf/finance-logo-1.png"
+            alt="Image 1"
+            className="w-20 h-20 ml-6 -mt-24 rounded-full shadow-xl animate-slow-bounce"
+          />
+
+          {/* Second Image: 50% outside to the right */}
+          <img
+            src="https://i.postimg.cc/dVzkSpBf/finance-logo-1.png"
+            alt="Image 2"
+            className="w-20 h-20 mr-24 mt-12 rounded-full shadow-xl animate-slow-bounce"
+          />
+
+          {/* Third Image: 50% inside from the right border */}
+          <img
+            src="https://i.postimg.cc/dVzkSpBf/finance-logo-1.png"
+            alt="Image 3"
+            className="w-28 h-28 ml-36 -mt-12 rounded-full shadow-xl animate-slow-bounce"
+          />
         </div>
       </div>
     </section>

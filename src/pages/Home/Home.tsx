@@ -19,7 +19,8 @@ const Home = () => {
           transition={{ duration: 1.5, ease: "easeInOut" }}
           className="absolute right-0 top-0 w-1/2 h-full bg-cover bg-center bg-no-repeat clip-path-image"
           style={{
-            backgroundImage: "url('https://i.postimg.cc/fL0LJgTm/dress.webp')",
+            backgroundImage:
+              "url('https://i.postimg.cc/L4CdSp1n/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304.avif')",
           }}
         ></motion.div>
 

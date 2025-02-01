@@ -133,17 +133,16 @@ Optional second set of slashes .animated-bg::after {
 }
 
 /* Animation for finance section */
-
 @keyframes slowBounce {
   0%,
   100% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
 }
 
 .animate-slow-bounce {
-  animation: slowBounce 2s ease-in-out infinite;
+  animation: slowBounce 15s ease-in-out infinite;
 }
