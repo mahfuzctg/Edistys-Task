@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import TechFinCards from "../../components/reUsable/cards/TechFinCards";
 import BrandLogo from "../../components/sections/BrandLogo";
 import Countdown from "../../components/sections/Countdown";
+import FutureTab from "../../components/sections/FutureTab";
 import OurPhilosophy from "../../components/sections/PhilosophySection";
 import TransformSection from "../../components/sections/TransformSection";
 
@@ -51,6 +52,7 @@ const Home = () => {
       </div>
       <OurPhilosophy></OurPhilosophy>
       <TechFinCards></TechFinCards>
+      <FutureTab></FutureTab>
       <Countdown></Countdown>
       <BrandLogo></BrandLogo>
       <TransformSection></TransformSection>
