@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import TechFinCards from "../../components/reUsable/cards/TechFinCards";
 import BrandLogo from "../../components/sections/BrandLogo";
 import Countdown from "../../components/sections/Countdown";
+import FinanceSection from "../../components/sections/FinanceSection";
 import FutureTab from "../../components/sections/FutureTab";
 import OurPhilosophy from "../../components/sections/PhilosophySection";
 import TransformSection from "../../components/sections/TransformSection";
@@ -50,6 +51,7 @@ const Home = () => {
           </motion.button>
         </div>
       </div>
+      <FinanceSection></FinanceSection>
       <OurPhilosophy></OurPhilosophy>
       <TechFinCards></TechFinCards>
       <FutureTab></FutureTab>

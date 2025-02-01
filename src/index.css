@@ -131,3 +131,19 @@ Optional second set of slashes .animated-bg::after {
   left: 80%;
   animation: slashAnimation 30s infinite ease-in-out;
 }
+
+/* Animation for finance section */
+
+@keyframes slowBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-slow-bounce {
+  animation: slowBounce 2s ease-in-out infinite;
+}
