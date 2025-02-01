@@ -1,6 +1,6 @@
 const TransformSection = () => {
   return (
-    <div className="bg-gradient-to-r from-[#E58964] to-[#014AB8] py-20 clip-path-custom-transform animated-bg h-[660px] ">
+    <div className="bg-gradient-to-r  from-[#5297ff] to-[#014AB8] py-20 clip-path-custom-transform h-[660px] animated-bg">
       <div className="container mt-20 mx-auto  text-white px-4">
         <h2 className="text-4xl font-bold mb-6">Legacy no longer</h2>
         <p className="text-lg  mb-12">

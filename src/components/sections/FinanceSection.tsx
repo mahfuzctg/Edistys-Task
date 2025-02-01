@@ -22,11 +22,11 @@ const FinanceSection = () => {
       </div>
 
       {/* Background Image Section */}
-      <div className="md:w-1/2 w-full mb-8 md:mb-0 relative">
+      <div className=" mx-auto mb-8 md:mb-0 relative  ">
         <img
           src="https://i.postimg.cc/ryhjsyg2/5ca8af1a922b106b962c34781483bc8e6e066688-1124x1364.avif"
           alt="Finance Technology"
-          className="w-9/12 object-cover shadow-lg"
+          className=" w-9/12 opacity-90"
         />
 
         {/* Front Images */}

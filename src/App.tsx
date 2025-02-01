@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 
+import TransformSection from "./components/sections/TransformSection";
 import Footer from "./components/shared/Footer";
 import Navbar from "./components/shared/Navbar";
 
@@ -10,7 +11,7 @@ const App = () => {
         <Navbar></Navbar>
       </div>
       <Outlet></Outlet>
-
+      <TransformSection></TransformSection>
       <Footer />
     </div>
   );

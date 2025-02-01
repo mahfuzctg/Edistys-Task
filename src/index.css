@@ -81,7 +81,7 @@ h6 {
   }
 }
 
-/* Add animated background with 6 images and slashes */
+/* Add animated background with 6 images and slashes for home banner */
 .animated-bg {
   position: relative;
   background: url("./assets/Images/ctaMobileWaveLines(1).svg") no-repeat center
@@ -96,6 +96,40 @@ h6 {
   background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%,
     100% 100%, 200% 200%;
   animation: bgAnimation 8s infinite ease-in-out;
+}
+
+/*  */
+
+/* Add animated background with 6 images and slashes for finance section */
+.animated-bg-finance {
+  position: relative;
+  background: url("./assets/Images/ctaMobileWaveLines(1).svg") no-repeat center
+      center/cover,
+    url("./assets/Images/WaveLinesDesktop1.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesDesktop2.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesDesktop3.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesDesktop4.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesMobile1.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesMobile2.svg") no-repeat center center/cover,
+    linear-gradient(45deg, #0251be, #0251be, #0251be); /* Gradient as the last background layer */
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%,
+    100% 100%, 200% 200%;
+  animation: bgAnimation 8s infinite ease-in-out;
+}
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(10deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 6s infinite linear;
 }
 
 /* Slash lines */
