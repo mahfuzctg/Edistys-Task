@@ -38,6 +38,8 @@ const features: Feature[] = [
 const OurValues: React.FC = () => {
   return (
     <section className="w-9/12 mx-auto mb-10 px-6">
+      <p className="font-bold text-blue-500 text-center mt-5">OUR VALUES</p>
+      <h1 className="text-center my-6 font-bold text-5xl">Built in our core</h1>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         {features.map((feature, index) => (
           <div
@@ -45,7 +47,7 @@ const OurValues: React.FC = () => {
             className="flex flex-col items-start p-4 bg-[#FFFFFF]  "
           >
             {/* Icon with background */}
-            <div className={`p-4 font-bold rounded-full ${feature.bgColor}`}>
+            <div className={`p-4 rounded-full ${feature.bgColor}`}>
               {feature.icon}
             </div>
 
