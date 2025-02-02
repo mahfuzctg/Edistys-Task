@@ -1,51 +1,47 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
 # Edistys-Task
+
+Edistys-Task is a redesigned frontend application built with **React**, **TypeScript**, **Tailwind CSS**, and **React Router**. This project is designed to showcase a **modern, responsive UI** with smooth animations, a sleek and accessible navigation bar, and a clean layout. It follows best practices in frontend development to ensure a seamless user experience across all devices.
+
+---
+
+## Features
+
+- **Responsive Design**: Fully optimized for desktops, tablets, and mobile devices.
+- **Sleek Navbar**: Accessible, smooth hover effects, and a responsive layout.
+- **Smooth Animations**: Engaging transitions and animations for enhanced user experience.
+- **Clean Codebase**: Built using TypeScript, ensuring type safety and maintainability.
+- **Modern Styling**: Powered by Tailwind CSS for flexible and scalable styles.
+
+---
+
+## Live Demo
+
+Check out the live application here: [Live Demo](https://edistys-task-ten.vercel.app/)
+
+---
+
+## Technologies Used
+
+- **React**: Component-based UI library for building interactive user interfaces.
+- **TypeScript**: Adds static typing to JavaScript for better code reliability.
+- **Tailwind CSS**: Utility-first CSS framework for rapid and responsive styling.
+- **React Router**: Declarative routing for single-page applications.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** (version 14 or higher)
+- **npm** or **yarn**
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mahfuzctg/Edistys-Task.git
+   cd edistys-task
+   ```

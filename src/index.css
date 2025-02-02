@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 /* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+Bengali:wght@500&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+Bengali:wght@500&family=Poppins:wght@500&display=swap");
+
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
 
 /* Heading */
 .heading {
@@ -24,6 +33,48 @@
   font-family: "Noto Sans Bengali", sans-serif;
   font-weight: 500;
   color: #777;
+}
+
+/* Mission Content */
+.mission-content {
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(to right, #2563eb, #146bdb, #014ab8);
+  color: white;
+  position: relative;
+}
+
+/* Accent color for headings */
+.text-accent {
+  color: #4ef0d3;
+}
+
+/* Mission text styling */
+.mission-text {
+  font-size: 1.5rem;
+  line-height: 1.75;
+  font-weight: 700;
+}
+
+/* Background decoration */
+.background-decoration {
+  position: absolute;
+  inset: 0;
+  border-radius: 0.75rem;
+  pointer-events: none;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.1) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.1) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 50px 50px;
+  opacity: 0.15;
 }
 
 /* Apply Montserrat for headings, overriding previous Poppins font */

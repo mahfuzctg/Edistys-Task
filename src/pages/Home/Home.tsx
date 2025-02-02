@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       {" "}
-      <div className="relative w-full h-screen animated-bg clip-path-custom-home font-[Montserrat]">
+      <div className="relative w-full h-screen animated-bg clip-path-custom-home font-Montserrat">
         {/* Animated Background Image with Clip-Path */}
         <motion.div
           initial={{ opacity: 0, x: "100%" }}
@@ -45,7 +45,7 @@ const Home = () => {
           <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            className="px-6 py-2 bg-orange-500 text-white text-lg font-medium rounded-md hover:bg-orange-600 transition"
+            className="px-12 py-4 bg-orange-500 text-white  font-bold rounded-md hover:bg-orange-600 transition"
           >
             Reach Out to Us ›
           </motion.button>
