@@ -2,12 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/src//assets/anytxn_logo.jpeg"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anytxn</title>
+    <title id="page-title">Home | Anytxn</title>
   </head>
   <body>
     <div id="root"></div>
+
+    <script>
+      // Function to update the title based on the current route
+      const updateTitle = () => {
+        const route = window.location.pathname;
+
+        if (route === "/") {
+          document.title = "Home | Anytxn";
+        } else if (route === "/about") {
+          document.title = "About | Anytxn";
+        } else if (route === "/service") {
+          document.title = "Service | Anytxn";
+        }
+        // Add more routes as needed
+      };
+
+      // Call updateTitle when the page loads
+      window.addEventListener("load", updateTitle);
+
+      // Optional: Update title on navigation if single-page app
+      window.addEventListener("popstate", updateTitle);
+    </script>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
