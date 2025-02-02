@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import TechFinCards from "../../components/reUsable/cards/TechFinCards";
 import SponsorSection from "../../components/reUsable/SponsorScrolling/SponsorSection";
+import OurFounder from "../../components/sections/about/OurFounder";
 import OurMission from "../../components/sections/about/OurMission";
 import OurStory from "../../components/sections/about/OurStory";
 import OurValues from "../../components/sections/about/OurValues";
@@ -39,10 +40,10 @@ const About = () => (
     <SponsorSection></SponsorSection>
     {/* Our Mission */}
     <OurMission></OurMission>
-
     {/* Our Values */}
-
     <OurValues></OurValues>
+    {/* Our Founder */}
+    <OurFounder></OurFounder>
   </>
 );
 

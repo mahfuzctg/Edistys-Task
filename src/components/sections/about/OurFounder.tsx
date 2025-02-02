@@ -1,6 +1,6 @@
 import React from "react";
 
-const OurStory: React.FC = () => {
+const OurFounder: React.FC = () => {
   return (
     <section className="bg-white w-11/12 sm:w-9/12 mx-auto py-20 px-4 sm:px-6 lg:px-16 flex flex-col lg:flex-row items-center gap-8">
       {/* Left Section: Text Content */}
@@ -23,29 +23,30 @@ const OurStory: React.FC = () => {
         <div className="relative w-full sm:w-4/5">
           {/* Main Image */}
           <img
-            src="https://i.postimg.cc/gJT6s3Fd/45215835736396e2687121e2610eca30b0a8ca2a-2121x1414.avif"
+            src="https://i.postimg.cc/yYH75nhd/Our-Founder.png"
             alt="AnyTech Story"
-            className="w-full"
+            className="w-[85%]"
           />
 
           {/* Small Images */}
           {/* Top-Left Small Image */}
           <img
-            src="/src/assets/Frames/story/1.png"
+            src="/src/assets/Frames/Founder/3.svg"
             alt="Small Image 1"
-            className="absolute top-[-20%] left-[-40%] sm:left-[-25%] w-[50%] sm:w-[60%]"
+            className="absolute top-[-15%] left-[-5%]  w-[50%] sm:w-[60%] transform scale-[-1]"
           />
+
           {/* Bottom-Right Small Image */}
           <img
             src="/src/assets/Frames/story/3.svg"
             alt="Small Image 2"
-            className="absolute w-[70%] sm:w-[90%] h-[70%] sm:h-[90%] ml-28 sm:ml-40 -mt-36 sm:-mt-48"
+            className="absolute w-[40%]  sm:h-[87%] ml-[56%] -mt-[50%]"
           />
           {/* Right Small Image */}
           <img
             src="/src/assets/Frames/story/2.svg"
             alt="Small Image 3"
-            className="absolute h-[40%] sm:h-[60%] ml-[60%] sm:ml-[80%] -mt-56 sm:-mt-72"
+            className="absolute h-[40%]  top-[-25%] left-[62%]"
           />
         </div>
       </div>
@@ -53,4 +54,4 @@ const OurStory: React.FC = () => {
   );
 };
 
-export default OurStory;
+export default OurFounder;
