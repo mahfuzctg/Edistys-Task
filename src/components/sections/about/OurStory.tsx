@@ -8,10 +8,15 @@ const OurStory: React.FC = () => {
         <h4 className="text-blue-500 font-semibold text-base sm:text-lg mb-4">
           OUR STORY
         </h4>
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-          Building the <span className="text-blue-500">future today</span>
+        <h2 className="text-3xl w-9/12 sm:text-4xl lg:text-6xl font-bold text-gray-800 mb-6">
+          Building the{" "}
+          <span className="bg-gradient-to-r from-[#0CC0EC] via-[#1B73D8] to-[#0E3C72] text-transparent bg-clip-text">
+            future
+          </span>{" "}
+          {}
+          today
         </h2>
-        <p className="text-gray-600 text-base sm:text-lg">
+        <p className="text-[#0B305B] text-base sm:text-lg">
           Founded in January 2020, Any Technology is a Singapore-based fintech
           enterprise committed to helping the global financial services industry
           reimagine banking and payment services.

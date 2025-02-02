@@ -213,3 +213,54 @@ Optional second set of slashes .animated-bg::after {
 .clip-shape-3 {
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
+
+/*==== Our Mission ===== */
+
+/* Section background decoration */
+.mission-content {
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(to right, #156edd, #146bdb, #014ab8);
+  color: white;
+  position: relative;
+}
+
+/* Background decoration */
+.background-decoration {
+  position: absolute;
+  inset: 0;
+  border-radius: 0.75rem;
+  pointer-events: none;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.1) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 50px 50px;
+  opacity: 0.15;
+}
+
+/*  */
+
+/* Add animated background with 6 images and slashes for home banner */
+.animated-bg-mission {
+  position: relative;
+  background: url("./assets/Images/ctaMobileWaveLines(1).svg") no-repeat center
+      center/cover,
+    url("./assets/Images/WaveLinesDesktop1.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesDesktop2.svg") no-repeat center center/cover,
+    url("") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesDesktop4.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesMobile1.svg") no-repeat center center/cover,
+    url("./assets/Images/WaveLinesMobile2.svg") no-repeat center center/cover,
+    linear-gradient(45deg, #0251be, #0251be, #0251be); /* Gradient as the last background layer */
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%,
+    100% 100%, 200% 200%;
+  animation: bgAnimation 8s infinite ease-in-out;
+}

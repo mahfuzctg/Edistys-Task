@@ -6,15 +6,22 @@ const OurFounder: React.FC = () => {
       {/* Left Section: Text Content */}
       <div className="w-full lg:w-1/2 text-center lg:text-left">
         <h4 className="text-blue-500 font-semibold text-base sm:text-lg mb-4">
-          OUR STORY
+          Our Founder
         </h4>
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
-          Building the <span className="text-blue-500">future today</span>
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0B305B] mb-6">
+          A trailblazer in finance
         </h2>
-        <p className="text-gray-600 text-base sm:text-lg">
-          Founded in January 2020, Any Technology is a Singapore-based fintech
-          enterprise committed to helping the global financial services industry
-          reimagine banking and payment services.
+        <p className="text-[#0B305B] text-base sm:text-lg font-bold mb-2">
+          Trong Lau is an experienced executive with extensive knowledge in the
+          field of credit card systems. Throughout her career spanning over 30
+          years, she has played a pivotal role in introducing and executing
+          advanced credit card and intelligent retail financial systems across
+          the region.
+        </p>
+        <p className="text-[#0B305B] text-base sm:text-lg">
+          Her unwavering dedication to innovation and impactful leadership has
+          been instrumental in shaping the industry and driving the creation of
+          pragmatic and user-centric financial technologies.
         </p>
       </div>
 
