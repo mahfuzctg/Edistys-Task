@@ -315,3 +315,19 @@ Optional second set of slashes .animated-bg::after {
     100% 100%, 200% 200%;
   animation: bgAnimation 8s infinite ease-in-out;
 }
+
+/* styles.css */
+
+.gradient-background {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(27, 141, 254),
+      rgba(73, 109, 255, 0) 80%
+    ),
+    url("https://i.postimg.cc/L4CdSp1n/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}

@@ -2,7 +2,7 @@ const FinanceSection = () => {
   return (
     <section className="w-[80%] mx-auto flex flex-col md:flex-row items-center justify-between py-8 px-6 bg-[#FFFFFF] relative">
       {/* Text Section */}
-      <div className="md:w-1/2 w-full md:pl-12">
+      <div className="md:w-1/2 w-full md:pl-12 py-20">
         <h2 className="text-lg font-semibold text-[#1F80F0] mb-4">
           POWERING THE FUTURE OF FINANCE
         </h2>
@@ -26,11 +26,11 @@ const FinanceSection = () => {
         <img
           src="https://i.postimg.cc/ryhjsyg2/5ca8af1a922b106b962c34781483bc8e6e066688-1124x1364.avif"
           alt="Finance Technology"
-          className="w-9/12 opacity-90 z-20" // Set z-index for the main image to bring it in front
+          className="w-full md:w-9/12 opacity-90 z-20" // Set z-index for the main image to bring it in front
         />
 
         {/* Front Images */}
-        <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 flex z-10">
+        <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 flex ">
           {" "}
           {/* Lower z-index for the front images */}
           {/* First Image: 50% outside to the left */}

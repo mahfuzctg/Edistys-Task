@@ -10,18 +10,24 @@ const Home = () => {
   return (
     <>
       {" "}
-      <div className="relative w-full h-screen animated-bg clip-path-custom-home font-Montserrat">
+      <div className="relative w-full h-screen animated-bg md:clip-path-custom-home font-Montserrat">
         {/* Animated Background Image with Clip-Path */}
         <motion.div
           initial={{ opacity: 0, x: "100%" }}
-          animate={{ opacity: 1, x: "0%" }}
+          animate={{ opacity: 1, x: "1%" }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
-          className="absolute right-0 top-0 w-1/2 h-full bg-cover bg-center bg-no-repeat clip-path-image"
-          style={{
-            backgroundImage:
-              "url('https://i.postimg.cc/L4CdSp1n/4c4adc11b7ca6ea25c7e7cba555d8f0b06488f3f-7952x5304.avif')",
-          }}
+          className="absolute   right-0 top-0 w-9/12 h-full bg-cover bg-center bg-no-repeat clip-path-image animated-bg gradient-background"
         ></motion.div>
+
+        {/* New Image in Right Top Corner */}
+        <div className="absolute ml-[45%] mt-[13%] ">
+          {" "}
+          {/* Adjust the opacity value as needed */}
+          <img
+            src="/src/assets/Images/WaveLinesDesktop1.svg"
+            className="w-full h-full"
+          />
+        </div>
 
         {/* Hero Content */}
         <div className="relative w-9/12 mx-auto z-10 flex flex-col justify-center items-start h-full pl-10 text-white space-y-6">
