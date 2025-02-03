@@ -36,19 +36,19 @@ const OurStory: React.FC = () => {
           {/* Small Images */}
           {/* Top-Left Small Image */}
           <img
-            src="/src/assets/Frames/story/1.png"
+            src="/assets/Frames/story/1.png"
             alt="Small Image 1"
             className="absolute top-[-20%] left-[-40%] sm:left-[-25%] w-[50%] sm:w-[60%]"
           />
           {/* Bottom-Right Small Image */}
           <img
-            src="/src/assets/Frames/story/3.svg"
+            src="/assets/Frames/story/3.svg"
             alt="Small Image 2"
             className="absolute w-[70%] sm:w-[90%] h-[70%] sm:h-[90%] ml-28 sm:ml-40 -mt-36 sm:-mt-48"
           />
           {/* Right Small Image */}
           <img
-            src="/src/assets/Frames/story/2.svg"
+            src="/assets/Frames/story/2.svg"
             alt="Small Image 3"
             className="absolute h-[40%] sm:h-[60%] ml-[60%] sm:ml-[80%] -mt-56 sm:-mt-72"
           />

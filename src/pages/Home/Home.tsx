@@ -24,7 +24,7 @@ const Home = () => {
           {" "}
           {/* Adjust the opacity value as needed */}
           <img
-            src="/src/assets/Images/WaveLinesDesktop1.svg"
+            src="/assets/Images/WaveLinesDesktop1.svg"
             className="w-full h-full"
           />
         </div>

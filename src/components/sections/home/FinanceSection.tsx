@@ -26,7 +26,7 @@ const FinanceSection = () => {
         <img
           src="https://i.postimg.cc/ryhjsyg2/5ca8af1a922b106b962c34781483bc8e6e066688-1124x1364.avif"
           alt="Finance Technology"
-          className="w-full md:w-9/12 opacity-90 z-20" // Set z-index for the main image to bring it in front
+          className="w-full md:w-9/12 opacity-90 z-20"
         />
 
         {/* Front Images */}
@@ -59,24 +59,24 @@ const FinanceSection = () => {
           {/* Lower z-index for the shapes */}
           {/* First Image: 50% outside to the left */}
           <img
-            src="/src/assets/Images/ctaMobileWaveLines (1).svg"
+            src="/assets/Images/ctaMobileWaveLines (1).svg"
             alt="Image 1"
             className="opacity-65 mt-[70%] ml-[50%] animate-slow-bounce"
           />
           {/* Second Image: 50% outside to the right */}
           <img
-            src="/src/assets/Frames/story/2.svg"
+            src="/assets/Frames/story/2.svg"
             alt="Image 2"
             className="w-28 h-28 -ml-[100%] mt-[90%] animate-slow-bounce"
           />
           {/* Third Image: 50% inside from the right border */}
           <img
-            src="/src/assets/Frames/story/2.svg"
+            src="/assets/Frames/story/2.svg"
             alt="Image 3"
             className="w-40 h-72 ml-24 -mt-24  opacity-65 animate-slow-bounce"
           />
           <img
-            src="/src/assets/Frames/Founder/3.svg"
+            src="/assets/Frames/Founder/3.svg"
             alt="Small Image 1"
             className="absolute opacity-65 top-[-1%] left-[6%] w-[80%] transform scale-[-1]"
           />

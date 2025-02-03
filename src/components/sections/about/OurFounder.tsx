@@ -38,20 +38,20 @@ const OurFounder: React.FC = () => {
           {/* Small Images */}
           {/* Top-Left Small Image */}
           <img
-            src="/src/assets/Frames/Founder/3.svg"
+            src="/assets/Frames/Founder/3.svg"
             alt="Small Image 1"
             className="absolute top-[-15%] left-[-5%]  w-[50%] sm:w-[60%] transform scale-[-1]"
           />
 
           {/* Bottom-Right Small Image */}
           <img
-            src="/src/assets/Frames/story/3.svg"
+            src="/assets/Frames/story/3.svg"
             alt="Small Image 2"
             className="absolute w-[40%]  sm:h-[87%] ml-[56%] -mt-[50%]"
           />
           {/* Right Small Image */}
           <img
-            src="/src/assets/Frames/story/2.svg"
+            src="/assets/Frames/story/2.svg"
             alt="Small Image 3"
             className="absolute h-[40%]  top-[-25%] left-[62%]"
           />
